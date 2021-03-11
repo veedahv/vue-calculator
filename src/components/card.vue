@@ -137,8 +137,10 @@ export default {
   padding: 25px 15px;
   /* background: #e3e3e3;
   border: 2px solid #dad7d7; */
-  background: #c7c5c5;
-  border: 2px solid #dad7d7;
+  /* background: #c7c5c5;
+  border: 2px solid #dad7d7; */
+  background: #d6e0f0;
+  border: 2px solid #8d93ab;
   border-radius: 12px;
 }
 
@@ -168,7 +170,8 @@ export default {
   border-radius: 5px;
   font-family: 'Akaya Telivigala', cursive;
   /* background: #ffffff; */
-  background: #979696;
+  /* background: #979696; */
+  background: #8d93ab;
   color: #ffffff;
 }
 .del-btn {
