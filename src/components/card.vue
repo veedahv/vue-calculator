@@ -8,6 +8,7 @@
           class="input-screen"
           :value="screenValue"
           placeholder="0"
+          disabled
         />
       </div>
       <div class="keypad-box grid">
@@ -147,17 +148,19 @@ export default {
 .input-box {
   text-align: right;
   padding: 10px;
-  font-size: 12px;
+  font-size: 14px;
   background: #ffffff;
   margin-bottom: 15px;
 }
 
 .input-screen {
-  font-size: 20px;
+  font-size: 24px;
   text-align: right;
   border: none;
   outline: none;
   width: 100%;
+  /* background: #FAFAFA; */
+  background: #ffffff;
 }
 
 .keypad {
