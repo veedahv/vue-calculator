@@ -148,13 +148,17 @@ export default {
 .input-box {
   text-align: right;
   padding: 10px;
-  font-size: 14px;
+  font-size: 24px;
   background: #ffffff;
   margin-bottom: 15px;
 }
 
+.input-calc {
+  margin-bottom: 5px;
+}
+
 .input-screen {
-  font-size: 24px;
+  font-size: 14px;
   text-align: right;
   border: none;
   outline: none;
